@@ -13,7 +13,7 @@ body {
 header {
     position: relative;
     height: 100vh;
-    background: url('static/bg-masthead.jpg');
+    background: url('static/aavtar.png');
     filter: brightness(60%);
     overflow: hidden;
 }
