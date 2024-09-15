@@ -65,6 +65,35 @@
             <p>You don't have access to my profile.</p>
         </div>
     </div>
+    <script>
+        console.log("script is working");
+
+function handleClick(event) {
+  event.preventDefault(); 
+  
+  var audio = document.getElementById("my_audio");
+  audio.play(); 
+  
+  
+  var modal = document.getElementById("myModal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  var audio = document.getElementById("my_audio");
+  audio.pause(); 
+  
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none"; 
+}
+
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal");
+  if (event.target == modal) {
+      closeModal();
+  }
+}
+    </script>
 
                 <!-- Third Button linking to Instagram -->
                 <a href="https://www.linkedin.com/in/bhavy-manchanda-3ba9a6323" target="_blank" class="icon-button"
