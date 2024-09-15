@@ -1,3 +1,4 @@
+console.log("script is working");
 
 function handleClick(event) {
   event.preventDefault(); 
