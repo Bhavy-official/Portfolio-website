@@ -71,6 +71,7 @@ function handleClick(event) {
   event.preventDefault(); 
   
   var audio = document.getElementById("my_audio");
+  audio.currentTime = 0;
   audio.play(); 
   
   
